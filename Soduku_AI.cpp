@@ -1,6 +1,7 @@
 /*Sodoku_AI.cpp 
 
-Description: 
+Description: Solves soduku puzzles using Depth first search with heuristics of number of possible cell values
+	     Implement using recursions
 
 Author:Chinedu Isaiah
 	   cjude32@yahoo.com

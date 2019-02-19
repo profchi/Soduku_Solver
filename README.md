@@ -30,10 +30,11 @@ int sodukuProblem_1[9][9] =  {	  {0,0,0,2,6,0,7,0,1}, <br/>
                                   {0,0,9,3,0,0,0,7,4}, <br/>
                                   {0,4,0,0,5,0,0,3,6}, <br/>
                                   {7,0,3,0,1,8,0,0,0} };
-if (CheckIfValid(sodukuProblem)) {
-		result = SolveSoduku(sodukuProblem);
-		if(VerifySolution(result))
-			PrintResult(result);
+				  
+if (CheckIfValid(sodukuProblem)) { <br/>
+		result = SolveSoduku(sodukuProblem);  <br/>
+		if(VerifySolution(result)) <br/>
+			PrintResult(result); <br/>
 	}
   
 This solves the soduku problem and Prints out the solution

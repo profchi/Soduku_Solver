@@ -10,8 +10,11 @@ If all the empty cells are transversed and no cell with only one possible value 
 
 # Methods
 int** SolveSoduku(int soduku[9][9])  - Returns a pointer to a 2D array with the solution to the input soduku. Note, the input must me in a valid format which is described below. <br/>
+
 bool CheckIfValid(int soduku[9][9]) - Checks if the input soduku is valid. A <b>valid input</b> should be a 9x9 integer array with empty cells given a value 0 and non-empty cells given their appropriate value.<br/>
+
 bool VerifySolution(int **solution) - Checks if a solution is valid. It checks if 1 to 9 can be found on every, row, column and 3x3 subset cells. <br/>
+
 void PrintResult(int **result) - Prints out the result to nthe console in a soduku array format
 
 # Usage

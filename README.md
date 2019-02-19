@@ -14,7 +14,7 @@ bool CheckIfValid(int soduku[9][9]) - Checks if the input soduku is valid. A <b>
 bool VerifySolution(int **solution) - Checks if a solution is valid. It checks if 1 to 9 can be found on every, row, column and 3x3 subset cells. <br/>
 void PrintResult(int **result) - Prints out the result to nthe console in a soduku array format
 
-#Usage
+# Usage
 Always ensure the input is valid before solving the soduku. The input should be in a 9x9 integer array and all empty cells should be given a value of 0;
 
 A sample usage in main is shown below:

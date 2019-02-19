@@ -21,7 +21,7 @@ A sample usage in main is shown below:
 
 int **result;
 
-int sodukuProblem_1[9][9] =  {	  {0,0,0,2,6,0,7,0,1}, <br/>
+int sodukuProblem_1[9][9] =  {	 <br/>  {0,0,0,2,6,0,7,0,1}, <br/>
                                   {6,8,0,0,7,0,0,9,0}, <br/>
                                   {1,9,0,0,0,4,5,0,0}, <br/>
                                   {8,2,0,1,0,0,0,4,0}, <br/>
